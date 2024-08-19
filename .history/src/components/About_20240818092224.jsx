@@ -1,0 +1,120 @@
+import React from 'react'
+import profile from '../assets/Profilefolio.jpg'
+function About() {
+  return (
+    <div className="max-w-screen-xl mx-auto py-8 px-8 lg:py-16 lg:px-6">
+    <div className="text-center mb-10">
+        <h2 className="text-4xl tracking-tight font-bold text-primary-800">About Me!</h2>
+    </div>
+
+    <div className="flex flex-col md:flex-row">
+        {/* can help image */}
+        <div
+      aria-hidden="true"
+      className="pointer-events-none lg:absolute lg:inset-y-0 lg:mx-auto lg:w-full lg:max-w-7xl"
+    >
+      <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
+        <div className="flex items-center space-x-6 lg:space-x-8">
+          <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+            <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
+              <img
+                src="https://placekitten.com/g/200/300"
+                alt="Kitten"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placekeanu.com/200/300"
+                alt="Keanu"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+          </div>
+          <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placekeanu.com/684/350/"
+                alt="Keanu"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placekeanu.com/250/350/y"
+                alt="Keanu"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placekitten.com/g/200/300"
+                alt="Kitten"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+          </div>
+          <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placekeanu.com/684/350/y"
+                alt="Keanu"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+            <div className="h-64 w-44 overflow-hidden rounded-lg">
+              <img
+                src="https://placebear.com/684/350"
+                alt="Bear"
+                className="h-full w-full object-cover object-center"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+        {/* end can help image */}
+
+        <div className="flex-1 flex flex-col sm:flex-row flex-wrap -mb-4 -mx-2">
+            <div className="w-full sm:w-1/2 mb-4 px-2">
+                <div className="h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl">
+                    <h3 className="text-2xl font-bold text-md mb-6">Dynamic Personalization:</h3>
+                    <p className="text-sm">
+                        Our platform leverages user data and behavior to provide a highly personalized experience, with dynamic content and product recommendations that change in real-time.
+                    </p>
+                </div>
+            </div>
+            <div className="w-full sm:w-1/2 mb-4 px-2">
+                <div className="h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl">
+                    <h3 className="text-2xl font-bold text-md mb-6">Personal Interest</h3>
+                    <p className="text-sm">
+                        Our website is designed with a mobile-first approach, offering a seamless browsing experience across all devices, including smartphones and tablets.
+                    </p>
+                </div>
+            </div>
+
+            <div className="w-full sm:w-1/2 mb-4 px-2">
+                <div className="h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl">
+                    <h3 className="text-2xl font-bold text-md mb-6">Personal Hobbies</h3>
+                    <p className="text-sm">
+                        Our U.S.-based customer support team is available around the clock to answer any questions, resolve any issues, and provide helpful solutions. Whether it's through email, phone, or live chat, we're always here to support you.
+                    </p>
+                </div>
+            </div>
+
+            <div className="w-full sm:w-1/2 mb-4 px-2">
+                <div className="h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl">
+                    <h3 className="text-2xl font-bold text-md mb-6">Secure Payment Processing</h3>
+                    <p className="text-sm">
+                        We use cutting-edge security measures to protect our customers' sensitive information and ensure the safety of all transactions made on our site.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  )
+}
+
+export default About
