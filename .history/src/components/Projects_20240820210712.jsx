@@ -46,7 +46,7 @@ function Projects() {
       <img
         src={thumb2}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -64,7 +64,7 @@ function Projects() {
       <img
         src={thumb3}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -83,7 +83,7 @@ function Projects() {
       <img
         src={thumb4}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -101,7 +101,7 @@ function Projects() {
       <img
         src={thumb5}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -118,7 +118,7 @@ function Projects() {
       <img
         src={thumb6}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">

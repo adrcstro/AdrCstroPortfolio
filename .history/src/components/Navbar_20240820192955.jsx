@@ -22,18 +22,17 @@ function Navbar() {
           <ul
             tabIndex={0}
             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-             <li className='text-sm font-semibold text-slate-500 '><a href="/home">Home</a></li>
-     <li className='text-sm font-semibold text-slate-500'><a href="/about">About</a></li>
-<li className='text-sm font-semibold text-slate-500'><a href="/tools-technologies">Tools & Technologies</a></li>
-<li className='text-sm font-semibold text-slate-500'><a href="/projects">Projects</a></li>
-<li className='text-sm font-semibold text-slate-500'><a href="/education">Education</a></li>
-<li className='text-sm font-semibold text-slate-500'><a href="/contact">Contact</a></li>
+     <li><a href="/about">About</a></li>
+<li><a href="/tools-technologies">Tools & Technologies</a></li>
+<li><a href="/projects">Projects</a></li>
+<li><a href="/education">Education</a></li>
+<li><a href="/contact">Contact</a></li>
 
           </ul>
         </div>
       </div>
 
-      <div className="navbar-end mr-2">
+      <div className="navbar-end">
       <IoSunnySharp className='w-5 h5' />
       </div>
 

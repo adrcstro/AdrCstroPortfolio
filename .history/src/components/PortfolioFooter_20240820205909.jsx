@@ -5,7 +5,7 @@ function PortfolioFooter() {
 <footer className="bg-neutral-100  text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
   <div className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500">
     <div className="flex justify-center items-center lg:block text-center">
-      <h1 className='text-slate-400 text-center font-semibold text-lg'> "An investment in knowledge pays the best interest."<span className='text-sm'>-Benjamin Franklin</span></h1>
+      <h1 className='text-slate-400 text-center font-semibold text-lg'> "An investment in knowledge pays the best interest."<span>-Benjamin Franklin</span></h1>
     </div>
     {/* <!-- Social network icons container --> */}
   </div>
@@ -24,7 +24,7 @@ function PortfolioFooter() {
 
   {/* <!-- Copyright section --> */}
   <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
-    <span>© 2023 Copyright</span>
+    <span>© 2023 Copyright:</span>
     <a
       className="font-semibold text-neutral-600 dark:text-neutral-400"
       href="https://tw-elements.com/"

@@ -27,7 +27,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact1} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Email me</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold">castroandew10@gmail.com <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105'/> </h4>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold">castroandew10@gmail.com <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/> </h4>
     
 </div>
   </div>
@@ -36,7 +36,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact2} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Message me</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href="https://www.facebook.com/profile.php?id=100009241129573" target="_blank" rel="noreferrer">Andre Thomas Castro</a><FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href="https://www.facebook.com/profile.php?id=100009241129573" target="_blank" rel="noreferrer">Andre Thomas Castro</a><FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/></h4>
     
 </div>
   </div>
@@ -45,7 +45,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact3} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Message me on Instagram</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://www.instagram.com/_adrcstro/ ' target="_blank" rel="noreferrer">_adrcstro </a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://www.instagram.com/_adrcstro/ ' target="_blank" rel="noreferrer">_adrcstro </a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/></h4>
     
 </div>
   </div>
@@ -54,7 +54,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact4} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>DM me on X</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://x.com/LiquidoAndre ' target="_blank" rel="noreferrer">@LiquidoAndre</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://x.com/LiquidoAndre ' target="_blank" rel="noreferrer">@LiquidoAndre</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/></h4>
     
 </div>
   </div>
@@ -63,7 +63,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact5} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>View my projects on GitHub</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://github.com/adrcstro '  target="_blank" rel="noreferrer">adrcstro</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://github.com/adrcstro '  target="_blank" rel="noreferrer">adrcstro</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/></h4>
     
 </div>
   </div>
@@ -72,7 +72,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact6} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Connect with me</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://www.linkedin.com/in/castro-andre-thomas-liquido-916628248/' target="_blank" rel="noreferrer">Castro Andre Thomas liquido</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/>
+    <h4 className="flex items-center text-lg text-slate-400 font-bold"><a href='https://www.linkedin.com/in/castro-andre-thomas-liquido-916628248/' target="_blank" rel="noreferrer">Castro Andre Thomas liquido</a> <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/>
 </h4>
     
 </div>
@@ -82,7 +82,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact7} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Chat with me on Skype</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold">live:.cid.dc9638a93c52d16a <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4> 
+    <h4 className="text-lg text-slate-400 font-bold">live:.cid.dc9638a93c52d16a <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 '/></h4> 
     
 </div>
   </div>
@@ -91,7 +91,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact8} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Message me on Telegram</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold">+63 9284864322 <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4> 
+    <h4 className="text-lg text-slate-400 font-bold">+63 9284864322</h4> 
     
 </div>
   </div>
@@ -100,7 +100,7 @@ function Contact() {
     <img className="rounded-lg w-16 h-16 mr-4" src={contact9} alt="React Js" />
     <div className='flex-grow'> 
     <p className='text-md mb-[-6px] font-semibold text-slate-400'>Contact Number (Phillipines +63)</p>
-    <h4 className="flex items-center text-lg text-slate-400 font-bold">+63 9284864322 <FaArrowUpRightFromSquare className='w-4 h-4 ml-2 text-slate-400 transition-transform transform hover:scale-105 '/></h4> 
+    <h4 className="text-lg text-slate-400 font-bold">+63 9284864322</h4> 
     
 </div>
   </div>

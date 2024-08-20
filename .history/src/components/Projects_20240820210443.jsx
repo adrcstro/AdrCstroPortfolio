@@ -28,7 +28,7 @@ function Projects() {
       <img
         src={thumb1}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -36,8 +36,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'>Brgy-409 Document Request Management System (DRMS)</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white '/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white '/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white transition-transform transform hover:scale-105'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white transition-transform transform hover:scale-105'/></div>
     </div>
   </div>
 
@@ -46,7 +46,7 @@ function Projects() {
       <img
         src={thumb2}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -54,8 +54,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'> A comprehensive solution for managing coffee shop operations</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </div>
 
@@ -64,7 +64,7 @@ function Projects() {
       <img
         src={thumb3}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -72,8 +72,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'>Strengthening Safety Measures for Tricycle Transportation</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </div>
 
@@ -83,7 +83,7 @@ function Projects() {
       <img
         src={thumb4}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -91,8 +91,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'>A Java-based application designed to facilitate language learning through interactive lessons</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </div>
 
@@ -101,7 +101,7 @@ function Projects() {
       <img
         src={thumb5}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -109,8 +109,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'>Dynamic Landing Page for Data Analytics Composed of financial Growth</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </div>
   <div className="card bg-stone-300 w-full shadow-xl flex flex-col">
@@ -118,7 +118,7 @@ function Projects() {
       <img
         src={thumb6}
         alt="Shoes"
-        className="rounded-xl transition-transform transform hover:scale-105"
+        className="rounded-xl"
       />
     </figure>
     <div className="py-2 px-4 flex-grow items-center text-first">
@@ -126,8 +126,8 @@ function Projects() {
       <p className='px-4 text-sm text-slate-600'>Dynamic Landing Page for Cloud Computing and API Development</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaGithub className='w-4 h-4 text-white'/></div>
+      <div className='bg-slate-600 rounded-lg p-2'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </div>
 
