@@ -40,16 +40,13 @@ function Navbar({ isDarkMode, toggleTheme }) {
               <Link to="Technology" spy={true} smooth={true} offset={-120}  duration={500}>Tools & Technologies</Link>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-            <Link to="Experience" spy={true} smooth={true} offset={-100}  duration={500}>Experience</Link>
+            <Link to="Experience" spy={true} smooth={true} offset={-100}  duration={500}>Projects</Link>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Projects" spy={true} smooth={true} offset={-90}  duration={500}>Projects</Link>
+              <a href="/education">Education</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Education" spy={true} smooth={true} offset={-80}  duration={500}>Education</Link>
-            </li>
-            <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Contact" spy={true} smooth={true} offset={-70}  duration={500}>Contact</Link>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>

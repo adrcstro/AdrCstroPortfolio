@@ -3,7 +3,7 @@ import React from 'react'
 function PortfolioFooter({isDarkMode}) {
   return (
   
-<footer name="Footer" className="bg-neutral-100  text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
+<footer className="bg-neutral-100  text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
 <div className={`${isDarkMode ? 'bg-gray-900' : 'bg-white'} w-full`}>
   <div className="flex items-center justify-center  p-6 dark:border-neutral-500">
     <div className="flex justify-center items-center lg:block text-center">

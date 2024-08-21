@@ -1,6 +1,6 @@
 import React from 'react';
 import { IoSunnySharp, IoMoonSharp } from "react-icons/io5";
-import { Link, animateScroll as scroll } from 'react-scroll';
+
 function Navbar({ isDarkMode, toggleTheme }) {
   return (
     <div className={`navbar bg-base-100 shadow-lg sticky top-0 z-50 ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-base-100 text-black'}`}>
@@ -28,28 +28,25 @@ function Navbar({ isDarkMode, toggleTheme }) {
           </div>
           <ul
             tabIndex={0}
-            className={`menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow-lg ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-base-100 text-slate-500'}`}
+            className={`menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-base-100 text-slate-500'}`}
           >
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Home" spy={true} smooth={true}   duration={500}>Home</Link>
+              <a href="/home">Home</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-            <Link to="About" spy={true} smooth={true} offset={-150}  duration={500}>About</Link>
+              <a href="/about">About</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Technology" spy={true} smooth={true} offset={-120}  duration={500}>Tools & Technologies</Link>
+              <a href="/tools-technologies">Tools & Technologies</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-            <Link to="Experience" spy={true} smooth={true} offset={-100}  duration={500}>Experience</Link>
+              <a href="/projects">Projects</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Projects" spy={true} smooth={true} offset={-90}  duration={500}>Projects</Link>
+              <a href="/education">Education</a>
             </li>
             <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Education" spy={true} smooth={true} offset={-80}  duration={500}>Education</Link>
-            </li>
-            <li className={`text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Contact" spy={true} smooth={true} offset={-70}  duration={500}>Contact</Link>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>

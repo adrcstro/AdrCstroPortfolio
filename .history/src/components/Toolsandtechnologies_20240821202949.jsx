@@ -32,7 +32,7 @@ import visualstudio from '../assets/visualstudio.png';
 
 function Toolsandtechnologies({ isDarkMode }) {
   return (
-    <div name="Technology" className={`${isDarkMode ? 'bg-gray-900' : 'bg-white'} w-full`}>
+    <div name="TEchnology" className={`${isDarkMode ? 'bg-gray-900' : 'bg-white'} w-full`}>
       <div className="max-w-screen-xl mx-auto py-8 px-8 lg:py-16 lg:px-6">
         <div className="text-center mb-10">
           <h2 className={`text-4xl tracking-tight font-bold ${isDarkMode ? 'text-white' : 'text-primary-800'}`}>

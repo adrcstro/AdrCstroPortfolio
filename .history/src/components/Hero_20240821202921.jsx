@@ -2,7 +2,7 @@ import React from 'react';
 import { AiOutlineMessage } from 'react-icons/ai';
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaHandsClapping } from "react-icons/fa6";
-import { Link, animateScroll as scroll } from 'react-scroll';
+
 function Hero({ isDarkMode }) {
   return (
     <div name="Home" className={`hero min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
@@ -40,12 +40,9 @@ function Hero({ isDarkMode }) {
             <button className="btn btn-primary mr-4 shadow-lg rounded-full px-8">
               <IoDocumentTextOutline className='w-5 h-5'/>Resume
             </button>
-
-            <Link to="Contact" spy={true} smooth={true} offset={-70}  duration={500}>
             <button className={`btn btn-transparent shadow-lg border rounded-full px-8 ${isDarkMode ? 'border-white' : 'border-gray-900'}`}>
               <AiOutlineMessage className='w-5 h-5' />Contact
             </button>
-            </Link>
           </div>
         </div>
       </div>

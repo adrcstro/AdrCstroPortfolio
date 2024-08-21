@@ -3,7 +3,7 @@ import React from 'react'
 function PortfolioFooter({isDarkMode}) {
   return (
   
-<footer name="Footer" className="bg-neutral-100  text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
+<footer className="bg-neutral-100  text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200">
 <div className={`${isDarkMode ? 'bg-gray-900' : 'bg-white'} w-full`}>
   <div className="flex items-center justify-center  p-6 dark:border-neutral-500">
     <div className="flex justify-center items-center lg:block text-center">
@@ -15,7 +15,7 @@ function PortfolioFooter({isDarkMode}) {
   {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
  
 
-  <div className={`py-6 text-center md:text-left ${isDarkMode ? 'bg-gray-800' : 'text-primary-800'}`}>
+  <div className={`py-6 text-center md:text-left ${isDarkMode ? 'bg-gray-90' : 'text-primary-800'}`}>
     <div className="flex flex-col gap-4 items-center md:flex-row md:gap-16 md:justify-center">
       <a href="#link1" className="text-slate-400 font-bold hover:underline">Home</a>
       <a href="#link2" className="text-slate-400 font-bold hover:underline">About</a>
