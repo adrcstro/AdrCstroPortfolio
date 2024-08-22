@@ -28,10 +28,10 @@ function Navbar({ isDarkMode, toggleTheme }) {
           </div>
           <ul
             tabIndex={0}
-            className={`menu menu-md dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow-lg ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-base-100 text-slate-500'}`}
+            className={`menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-80 p-2 shadow-lg ${isDarkMode ? 'bg-gray-800 text-white' : 'bg-base-100 text-slate-500'}`}
           >
             <li className={`text-sm font-semibold transition-transform transform hover:scale-105 ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Home" spy={true} smooth={true} offset={-160}  duration={500}>Home</Link>
+              <Link to="Home" spy={true} smooth={true}   duration={500}>Home</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
             <Link to="About" spy={true} smooth={true} offset={-150}  duration={500}>About</Link>

@@ -79,7 +79,7 @@ function Projects({ isDarkMode }) {
     </div>
   </motion.div>
   <dialog id="my_modal_3" className="modal">
-  <div className="modal-box w-11/12 max-w-6xl h-auto md:h-[600px]">
+  <div className="modal-box w-11/12 max-w-6xl  md:h-[600px]">
     <form method="dialog">
       {/* Close button */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
@@ -133,7 +133,12 @@ function Projects({ isDarkMode }) {
         <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
         automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
        <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
-       
+       <li className='text-slate-600'></li>
+       <li className='text-slate-600'></li>
+       <li className='text-slate-600'></li>
+       <li className='text-slate-600'></li>
+       <li className='text-slate-600'></li>
+       <li className='text-slate-600'></li>
        </p>
       </div>
     </div>

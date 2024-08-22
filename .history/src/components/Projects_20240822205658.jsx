@@ -129,12 +129,10 @@ function Projects({ isDarkMode }) {
       {/* Text Content Section */}
       <div className="w-full p-4 md:mt-4">
         <h2 className="text-2xl font-bold text-slate-800">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
-        <p><span className='mt-2 font-bold text-slate-600'>Project Role: </span>Full Stack Developer</p>
-        <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
+        <p><span className='font-bold'>Project Role:</span>Full Stack Developer</p>
+        <p className="mt-2 text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
         automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
-       <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
-       
-       </p>
+        
       </div>
     </div>
   </div>

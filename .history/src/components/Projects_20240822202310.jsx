@@ -85,56 +85,55 @@ function Projects({ isDarkMode }) {
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     
-    <div className="flex items-center flex-col h-full p-4">
+    <div className="flex flex-col md:flex-row h-full p-4">
       {/* Carousel Section */}
-      <div className="carousel w-11/12 h-full lg:h-full md:h-full">
-        <div id="slide1" className="carousel-item relative w-full h-full">
-          <img
-            src={resi6}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide4" className="btn btn-circle">❮</a>
-            <a href="#slide2" className="btn btn-circle">❯</a>
+      <div className="md:w-1/2 w-full h-full">
+        <div className="carousel w-full h-full lg:h-full md:h-full">
+          <div id="slide1" className="carousel-item relative w-full h-full">
+            <img
+              src={resi6}
+              className="w-full h-full object-contain" />
+            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" className="btn btn-circle">❮</a>
+              <a href="#slide2" className="btn btn-circle">❯</a>
+            </div>
           </div>
-        </div>
-        <div id="slide2" className="carousel-item relative w-full h-full">
-          <img
-            src={resi5}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" className="btn btn-circle">❮</a>
-            <a href="#slide3" className="btn btn-circle">❯</a>
+          <div id="slide2" className="carousel-item relative w-full h-full">
+            <img
+              src={resi5}
+              className="w-full h-full object-contain" />
+            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" className="btn btn-circle">❮</a>
+              <a href="#slide3" className="btn btn-circle">❯</a>
+            </div>
           </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full h-full">
-          <img
-            src={resi4}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" className="btn btn-circle">❮</a>
-            <a href="#slide4" className="btn btn-circle">❯</a>
+          <div id="slide3" className="carousel-item relative w-full h-full">
+            <img
+              src={resi4}
+              className="w-full h-full object-contain" />
+            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide2" className="btn btn-circle">❮</a>
+              <a href="#slide4" className="btn btn-circle">❯</a>
+            </div>
           </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full h-full">
-          <img
-            src={resi3}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">❮</a>
-            <a href="#slide1" className="btn btn-circle">❯</a>
+          <div id="slide4" className="carousel-item relative w-full h-full">
+            <img
+              src={resi3}
+              className="w-full h-full object-contain" />
+            <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide3" className="btn btn-circle">❮</a>
+              <a href="#slide1" className="btn btn-circle">❯</a>
+            </div>
           </div>
         </div>
       </div>
 
       {/* Text Content Section */}
-      <div className="w-full p-4 md:mt-4">
-        <h2 className="text-2xl font-bold text-slate-800">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
-        <p><span className='mt-2 font-bold text-slate-600'>Project Role: </span>Full Stack Developer</p>
-        <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
-        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
-       <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
-       
-       </p>
+      <div className="md:w-1/2 w-full p-4 mt-4 md:mt-0">
+        <h2 className="text-2xl font-bold">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
+        <p className="mt-2"> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
+        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables 
+        users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
       </div>
     </div>
   </div>

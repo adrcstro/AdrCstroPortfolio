@@ -7,31 +7,6 @@ import thumb3 from '../assets/ProjectsAsset/TricycleThumbnail.png'
 import thumb4 from '../assets/ProjectsAsset/LangsysThumbnail.png'
 import thumb5 from '../assets/ProjectsAsset/reactp1thumbnaikl.png'
 import thumb6 from '../assets/ProjectsAsset/reactp2thumbnail.png'
-
-
-
-import resi1 from '../assets/ProjectsAsset/IndividualProjectAssets/resi1.png'
-import resi2 from '../assets/ProjectsAsset/IndividualProjectAssets/resi2.png'
-import resi3 from '../assets/ProjectsAsset/IndividualProjectAssets/resi3.png'
-import resi4 from '../assets/ProjectsAsset/IndividualProjectAssets/resi4.png'
-import resi5 from '../assets/ProjectsAsset/IndividualProjectAssets/resi5.png'
-import resi6 from '../assets/ProjectsAsset/IndividualProjectAssets/resi6.png'
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
 function Projects({ isDarkMode }) {
@@ -79,71 +54,15 @@ function Projects({ isDarkMode }) {
     </div>
   </motion.div>
   <dialog id="my_modal_3" className="modal">
-  <div className="modal-box w-11/12 max-w-6xl h-auto md:h-[600px]">
-    <form method="dialog">
-      {/* Close button */}
+  <div className="modal-box w-11/12 max-w-5xl bg-slate-200">
+    <form method="dialog" >
+      {/* if there is a button in form, it will close the modal */}
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
-    
-    <div className="flex items-center flex-col h-full p-4">
-      {/* Carousel Section */}
-      <div className="carousel w-11/12 h-full lg:h-full md:h-full">
-        <div id="slide1" className="carousel-item relative w-full h-full">
-          <img
-            src={resi6}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide4" className="btn btn-circle">❮</a>
-            <a href="#slide2" className="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide2" className="carousel-item relative w-full h-full">
-          <img
-            src={resi5}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide1" className="btn btn-circle">❮</a>
-            <a href="#slide3" className="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide3" className="carousel-item relative w-full h-full">
-          <img
-            src={resi4}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide2" className="btn btn-circle">❮</a>
-            <a href="#slide4" className="btn btn-circle">❯</a>
-          </div>
-        </div>
-        <div id="slide4" className="carousel-item relative w-full h-full">
-          <img
-            src={resi3}
-            className="w-full h-full object-contain" />
-          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
-            <a href="#slide3" className="btn btn-circle">❮</a>
-            <a href="#slide1" className="btn btn-circle">❯</a>
-          </div>
-        </div>
-      </div>
-
-      {/* Text Content Section */}
-      <div className="w-full p-4 md:mt-4">
-        <h2 className="text-2xl font-bold text-slate-800">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
-        <p><span className='mt-2 font-bold text-slate-600'>Project Role: </span>Full Stack Developer</p>
-        <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
-        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
-       <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
-       
-       </p>
-      </div>
-    </div>
+    <h3 className="font-bold text-lg">Hello!</h3>
+    <p className="py-4">Press ESC key or click on ✕ button to close</p>
   </div>
 </dialog>
-
-
-
-
-
   <motion.div
   variants={fadeIn("down",0.2)}
            initial="hidden"

@@ -85,9 +85,9 @@ function Projects({ isDarkMode }) {
       <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
     
-    <div className="flex items-center flex-col h-full p-4">
+    <div className="flex flex-col h-full p-4">
       {/* Carousel Section */}
-      <div className="carousel w-11/12 h-full lg:h-full md:h-full">
+      <div className="carousel border border-slate-500 w-full h-full lg:h-full md:h-full">
         <div id="slide1" className="carousel-item relative w-full h-full">
           <img
             src={resi6}
@@ -124,17 +124,15 @@ function Projects({ isDarkMode }) {
             <a href="#slide1" className="btn btn-circle">❯</a>
           </div>
         </div>
+        
       </div>
 
       {/* Text Content Section */}
       <div className="w-full p-4 md:mt-4">
-        <h2 className="text-2xl font-bold text-slate-800">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
-        <p><span className='mt-2 font-bold text-slate-600'>Project Role: </span>Full Stack Developer</p>
-        <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
-        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
-       <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
-       
-       </p>
+        <h2 className="text-2xl font-bold">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
+        <p className="mt-2"> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
+        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables 
+        users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
       </div>
     </div>
   </div>
