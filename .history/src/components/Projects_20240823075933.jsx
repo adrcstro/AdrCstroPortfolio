@@ -103,12 +103,12 @@ function Projects({ isDarkMode }) {
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "slide6", img: resi6, next: "#slide2", prev: "#slide6" },
+    { id: "slide1", img: resi6, next: "#slide2", prev: "#slide6" },
     { id: "slide2", img: resi5, next: "#slide3", prev: "#slide1" },
     { id: "slide3", img: resi4, next: "#slide4", prev: "#slide2" },
     { id: "slide4", img: resi3, next: "#slide5", prev: "#slide3" },
     { id: "slide5", img: resi2, next: "#slide6", prev: "#slide4" },
-    { id: "slide1", img: resi1, next: "#slide1", prev: "#slide5" },
+    { id: "slide6", img: resi1, next: "#slide1", prev: "#slide5" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />
@@ -192,12 +192,12 @@ function Projects({ isDarkMode }) {
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "coffe1", img: coffe1, next: "#coffe2", prev: "#coffe6" },
-    { id: "coffe2", img: coffe5, next: "#coffe3", prev: "#coffe1" },
-    { id: "coffe3", img: coffe4, next: "#coffe4", prev: "#coffe2" },
-    { id: "coffe4", img: coffe3, next: "#coffe5", prev: "#coffe3" },
-    { id: "coffe5", img: coffe2, next: "#coffe6", prev: "#coffe4" },
-    { id: "coffe6", img: coffe6, next: "#coffe1", prev: "#coffe5" },
+    { id: "slide1", img: coffe1, next: "#slide2", prev: "#slide6" },
+    { id: "slide2", img: coffe5, next: "#slide3", prev: "#slide1" },
+    { id: "slide3", img: coffe4, next: "#slide4", prev: "#slide2" },
+    { id: "slide4", img: coffe3, next: "#slide5", prev: "#slide3" },
+    { id: "slide5", img: coffe2, next: "#slide6", prev: "#slide4" },
+    { id: "slide6", img: coffe6, next: "#slide1", prev: "#slide5" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />

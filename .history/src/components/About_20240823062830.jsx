@@ -64,12 +64,7 @@ function About({ isDarkMode }) {
               </div>
             </motion.div>
 
-            <motion.div 
-                variants={fadeIn("right",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{once: false, amount:0.7}}
-            className="w-full sm:w-1/2 mb-4 px-2">
+            <div className="w-full sm:w-1/2 mb-4 px-2">
               <div className={`h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
                 <h3 className={`flex text-2xl font-bold text-md mb-6 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                   Goals and Aspirations <FcComboChart className='ml-2 w-6 h-7'/>
@@ -78,14 +73,9 @@ function About({ isDarkMode }) {
                   Our U.S.-based customer support team is available around the clock to answer any questions, resolve any issues, and provide helpful solutions. Whether it's through email, phone, or live chat, we're always here to support you.
                 </p>
               </div>
-            </motion.div>
+            </div>
 
-            <motion.div
-          variants={fadeIn("down",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-           viewport={{once: false, amount:0.7}}
-             className="w-full sm:w-1/2 mb-4 px-2">
+            <div className="w-full sm:w-1/2 mb-4 px-2">
               <div className={`h-full py-4 px-6 border border-[#570df8] border-t-0 border-l-0 rounded-br-xl ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}>
                 <h3 className={`flex text-2xl font-bold text-md mb-6 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                   Skills and Abilities <FcServices className='ml-2 w-6 h-7' />
@@ -94,7 +84,7 @@ function About({ isDarkMode }) {
                   We use cutting-edge security measures to protect our customers' sensitive information and ensure the safety of all transactions made on our site.
                 </p>
               </div>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>

@@ -21,14 +21,6 @@ import resi4 from '../assets/ProjectsAsset/IndividualProjectAssets/resi4.png'
 import resi5 from '../assets/ProjectsAsset/IndividualProjectAssets/resi5.png'
 import resi6 from '../assets/ProjectsAsset/IndividualProjectAssets/resi6.png'
 
-import coffe1 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe1.png'
-import coffe2 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe2.png'
-import coffe3 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe3.png'
-import coffe4 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe4.png'
-import coffe5 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe5.png'
-import coffe6 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe6.png'
-
-
 
 
 
@@ -99,16 +91,16 @@ function Projects({ isDarkMode }) {
     </form>
     <div className="flex flex-col h-full p-4 overflow-hidden">
       {/* Scrollable Content Section */}
-      <div  className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+      <div className="w-full h-full overflow-y-auto">
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "slide6", img: resi6, next: "#slide2", prev: "#slide6" },
+    { id: "slide1", img: resi6, next: "#slide2", prev: "#slide6" },
     { id: "slide2", img: resi5, next: "#slide3", prev: "#slide1" },
     { id: "slide3", img: resi4, next: "#slide4", prev: "#slide2" },
     { id: "slide4", img: resi3, next: "#slide5", prev: "#slide3" },
     { id: "slide5", img: resi2, next: "#slide6", prev: "#slide4" },
-    { id: "slide1", img: resi1, next: "#slide1", prev: "#slide5" },
+    { id: "slide6", img: resi1, next: "#slide1", prev: "#slide5" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />
@@ -188,16 +180,16 @@ function Projects({ isDarkMode }) {
     </form>
     <div className="flex flex-col h-full p-4 overflow-hidden">
       {/* Scrollable Content Section */}
-      <div  className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+      <div className="w-full h-full overflow-y-auto">
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "coffe1", img: coffe1, next: "#coffe2", prev: "#coffe6" },
-    { id: "coffe2", img: coffe5, next: "#coffe3", prev: "#coffe1" },
-    { id: "coffe3", img: coffe4, next: "#coffe4", prev: "#coffe2" },
-    { id: "coffe4", img: coffe3, next: "#coffe5", prev: "#coffe3" },
-    { id: "coffe5", img: coffe2, next: "#coffe6", prev: "#coffe4" },
-    { id: "coffe6", img: coffe6, next: "#coffe1", prev: "#coffe5" },
+    { id: "slide1", img: resi6, next: "#slide2", prev: "#slide6" },
+    { id: "slide2", img: resi5, next: "#slide3", prev: "#slide1" },
+    { id: "slide3", img: resi4, next: "#slide4", prev: "#slide2" },
+    { id: "slide4", img: resi3, next: "#slide5", prev: "#slide3" },
+    { id: "slide5", img: resi2, next: "#slide6", prev: "#slide4" },
+    { id: "slide6", img: resi1, next: "#slide1", prev: "#slide5" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />

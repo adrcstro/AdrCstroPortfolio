@@ -15,7 +15,7 @@ function PortfolioFooter({isDarkMode}) {
   {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
  
 
-  <div className={`py-6 text-center md:text-left ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100 text-primary-800'}`}>
+  <div className={`py-6 text-center md:text-left ${isDarkMode ? 'bg-gray-800' : 'text-primary-800'}`}>
   <div className="flex flex-col gap-4 items-center md:flex-row md:gap-16 md:justify-center list-none">
   <li className="text-slate-400 transition-transform transform hover:scale-105 font-bold">  <Link to="Home" spy={true} smooth={true}   duration={500}>Home</Link></li>
   <li className="text-slate-400 transition-transform transform hover:scale-105 font-bold"> <Link to="About" spy={true} smooth={true} offset={-150}  duration={500}>About</Link></li>
@@ -29,7 +29,7 @@ function PortfolioFooter({isDarkMode}) {
 
   {/* <!-- Copyright section --> */}
 
-  <div className={` p-2 text-center text-slate-400 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100 text-primary-800'}`}>
+  <div className={` p-2 text-center text-slate-400 ${isDarkMode ? 'bg-gray-800' : 'text-primary-800'}`}>
     <span>© 2023 Copyright</span>
     <a
       className="font-semibold text-slate-400 ml-2"

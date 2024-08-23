@@ -29,7 +29,7 @@ function PortfolioFooter({isDarkMode}) {
 
   {/* <!-- Copyright section --> */}
 
-  <div className={` p-2 text-center text-slate-400 ${isDarkMode ? 'bg-gray-800' : 'bg-gray-100 text-primary-800'}`}>
+  <div className={` p-2 text-center text-slate-400 ${isDarkMode ? 'bg-gray-800' : 'text-primary-800'}`}>
     <span>© 2023 Copyright</span>
     <a
       className="font-semibold text-slate-400 ml-2"

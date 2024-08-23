@@ -7,11 +7,7 @@ import thumb3 from '../assets/ProjectsAsset/TricycleThumbnail.png'
 import thumb4 from '../assets/ProjectsAsset/LangsysThumbnail.png'
 import thumb5 from '../assets/ProjectsAsset/reactp1thumbnaikl.png'
 import thumb6 from '../assets/ProjectsAsset/reactp2thumbnail.png'
-import { SiPhp } from "react-icons/si";
-import { FaHtml5, FaJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
-import { IoLogoCss3 } from "react-icons/io5";
-import { RiTailwindCssFill } from "react-icons/ri";
-import { SiMysql, SiJquery } from "react-icons/si";
+
 
 
 import resi1 from '../assets/ProjectsAsset/IndividualProjectAssets/resi1.png'
@@ -20,14 +16,6 @@ import resi3 from '../assets/ProjectsAsset/IndividualProjectAssets/resi3.png'
 import resi4 from '../assets/ProjectsAsset/IndividualProjectAssets/resi4.png'
 import resi5 from '../assets/ProjectsAsset/IndividualProjectAssets/resi5.png'
 import resi6 from '../assets/ProjectsAsset/IndividualProjectAssets/resi6.png'
-
-import coffe1 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe1.png'
-import coffe2 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe2.png'
-import coffe3 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe3.png'
-import coffe4 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe4.png'
-import coffe5 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe5.png'
-import coffe6 from '../assets/ProjectsAsset/IndividualProjectAssets/coffe6.png'
-
 
 
 
@@ -90,72 +78,63 @@ function Projects({ isDarkMode }) {
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105' onClick={()=>document.getElementById('my_modal_3').showModal()}><FaArrowUpRightFromSquare className='w-4 h-4 text-white '/></div>
     </div>
   </motion.div>
-
   <dialog id="my_modal_3" className="modal">
-  <div className={`modal-box w-11/12 max-w-6xl h-auto md:h-[600px] ${isDarkMode ? 'bg-slate-800 ' : 'text-primary-800'}`}>
+  <div className="modal-box w-11/12 max-w-6xl h-auto md:h-[600px]">
     <form method="dialog">
-      {/* Close Button */}
-      <button className={`btn btn-sm btn-circle btn-ghost absolute right-2 top-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>✕</button>
+      {/* Close button */}
+      <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">✕</button>
     </form>
+    
     <div className="flex flex-col h-full p-4 overflow-hidden">
-      {/* Scrollable Content Section */}
-      <div  className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-        {/* Carousel Section */}
-        <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
-  {[
-    { id: "slide6", img: resi6, next: "#slide2", prev: "#slide6" },
-    { id: "slide2", img: resi5, next: "#slide3", prev: "#slide1" },
-    { id: "slide3", img: resi4, next: "#slide4", prev: "#slide2" },
-    { id: "slide4", img: resi3, next: "#slide5", prev: "#slide3" },
-    { id: "slide5", img: resi2, next: "#slide6", prev: "#slide4" },
-    { id: "slide1", img: resi1, next: "#slide1", prev: "#slide5" },
-  ].map(({ id, img, next, prev }) => (
-    <div key={id} id={id} className="carousel-item relative w-full h-full">
-      <img src={img} className="w-full h-full object-contain" alt="Slide" />
-      <div className="absolute inset-y-1/2 left-5 right-5 flex justify-between transform -translate-y-1/2">
-        <a href={prev} className="btn btn-circle">❮</a>
-        <a href={next} className="btn btn-circle">❯</a>
-      </div>
-    </div>
-  ))}
-</div>
-        {/* Text Content Section */}
-        <div className="w-full p-4 mt-4">
-      
-        <h2  className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-            RESIQUEST: An Automated Document Request Management System
-          </h2>
-          <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Full Stack Developer</p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span> ResiQuest is a software solution designed to streamline and automate the process of requesting, managing, and tracking documents in residential or organizational settings. It enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
-            <ul className="list-disc list-inside">
-              <li>Automated the process of requesting documents</li>
-              <li>Managed document tracking and notifications</li>
-              <li>Improved efficiency in document handling</li>
-              <li>Integrated with existing systems</li>
-              <li>Enhanced user interface for ease of use</li>
-              <li>Provided real-time updates on request status</li>
-            </ul>
-          </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Technology Used:</span>
-          </p>
-          <div  className={`flex p-2 gap-2 ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-            <SiPhp className="w-10 h-10" />
-            <FaHtml5 className="w-10 h-10" />
-            <IoLogoCss3 className="w-10 h-10" />
-            <FaJs className="w-10 h-10" />
-            <RiTailwindCssFill className="w-10 h-10" />
-            <SiMysql className="w-10 h-10" />
-            <SiJquery className="w-10 h-10" />
-            <FaGitAlt className="w-10 h-10" />
+      {/* Carousel Section */}
+      <div className="carousel w-11/12 h-2/3 lg:h-2/3 md:h-2/3">
+        <div id="slide1" className="carousel-item relative w-full h-full">
+          <img src={resi6} className="w-full h-full object-contain" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" className="btn btn-circle">❮</a>
+            <a href="#slide2" className="btn btn-circle">❯</a>
           </div>
         </div>
+        <div id="slide2" className="carousel-item relative w-full h-full">
+          <img src={resi5} className="w-full h-full object-contain" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" className="btn btn-circle">❮</a>
+            <a href="#slide3" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full h-full">
+          <img src={resi4} className="w-full h-full object-contain" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" className="btn btn-circle">❮</a>
+            <a href="#slide4" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full h-full">
+          <img src={resi3} className="w-full h-full object-contain" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" className="btn btn-circle">❮</a>
+            <a href="#slide1" className="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+
+      {/* Text Content Section */}
+      <div className="w-full p-4 mt-4 overflow-y-auto h-1/3">
+        <h2 className="text-2xl font-bold text-slate-800">RESIQUEST: AN AUTOMATED DOCUMENT REQUEST MANAGEMENT SYSTEM</h2>
+        <p><span className='mt-2 font-bold text-slate-600'>Project Role: </span>Full Stack Developer</p>
+        <p className=" text-slate-600 text-justify"><span className='font-bold'>Description:</span> ResiQuest: An Automated Document Request Management System is a software solution designed to streamline and 
+        automate the process of requesting, managing, and tracking documents in residential or organizational settings. The system enables users to submit requests, track their status, and receive notifications, reducing manual effort and improving efficiency in document handling.</p>
+       <p className='text-slate-600 text-justify'><span className='font-bold'>Activities</span>
+       
+       </p>
       </div>
     </div>
   </div>
 </dialog>
+
+
+
+
 
   <motion.div
   variants={fadeIn("down",0.2)}
@@ -176,81 +155,9 @@ function Projects({ isDarkMode }) {
    </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_4').showModal()}/></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </motion.div>
-
-  <dialog id="my_modal_4" className="modal">
-  <div className={`modal-box w-11/12 max-w-6xl h-auto md:h-[600px] ${isDarkMode ? 'bg-slate-800 ' : 'text-primary-800'}`}>
-    <form method="dialog">
-      {/* Close Button */}
-      <button className={`btn btn-sm btn-circle btn-ghost absolute right-2 top-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>✕</button>
-    </form>
-    <div className="flex flex-col h-full p-4 overflow-hidden">
-      {/* Scrollable Content Section */}
-      <div  className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-        {/* Carousel Section */}
-        <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
-  {[
-    { id: "coffe1", img: coffe1, next: "#coffe2", prev: "#coffe6" },
-    { id: "coffe2", img: coffe5, next: "#coffe3", prev: "#coffe1" },
-    { id: "coffe3", img: coffe4, next: "#coffe4", prev: "#coffe2" },
-    { id: "coffe4", img: coffe3, next: "#coffe5", prev: "#coffe3" },
-    { id: "coffe5", img: coffe2, next: "#coffe6", prev: "#coffe4" },
-    { id: "coffe6", img: coffe6, next: "#coffe1", prev: "#coffe5" },
-  ].map(({ id, img, next, prev }) => (
-    <div key={id} id={id} className="carousel-item relative w-full h-full">
-      <img src={img} className="w-full h-full object-contain" alt="Slide" />
-      <div className="absolute inset-y-1/2 left-5 right-5 flex justify-between transform -translate-y-1/2">
-        <a href={prev} className="btn btn-circle">❮</a>
-        <a href={next} className="btn btn-circle">❯</a>
-      </div>
-    </div>
-  ))}
-</div>
-        {/* Text Content Section */}
-        <div className="w-full p-4 mt-4">
-      
-        <h2  className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-        "BEANtoCUP" - A Coffee Shop Order and Tracking Management System
-          </h2>
-          <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Full Stack Developer</p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span>  BEANtoCUP: A Coffee Shop Order and Tracking Management System is a comprehensive solution for managing coffee shop operations, including order processing, inventory tracking, and customer management. </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
-            <ul className="list-disc list-inside">
-              <li>Automated the process of requesting documents</li>
-              <li>Managed document tracking and notifications</li>
-              <li>Improved efficiency in document handling</li>
-              <li>Integrated with existing systems</li>
-              <li>Enhanced user interface for ease of use</li>
-              <li>Provided real-time updates on request status</li>
-            </ul>
-          </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Technology Used:</span>
-          </p>
-          <div  className={`flex p-2 gap-2 ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-          <SiPhp className='w-10 h-10' />
-                  <FaHtml5 className='w-10 h-10' />
-                  <IoLogoCss3 className='w-10 h-10' />
-                  <FaJs className='w-10 h-10' />
-                  <SiMysql className='w-10 h-10' />
-                  <FaBootstrap className='w-10 h-10' />
-                  <SiJquery className='w-10 h-10' />
-                  <FaGitAlt className='w-10 h-10' />
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</dialog>
-
-
-
-
-
-
   <motion.div
   variants={fadeIn("left",0.2)}
            initial="hidden"
