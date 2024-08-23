@@ -607,12 +607,10 @@ function Projects({ isDarkMode }) {
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "cloud1", img: cloud1, next: "#cloud2", prev: "#cloud6" },
-    { id: "cloud2", img: cloud5, next: "#cloud3", prev: "#cloud1" },
-    { id: "cloud3", img: cloud4, next: "#cloud4", prev: "#cloud2" },
-    { id: "cloud4", img: cloud3, next: "#cloud5", prev: "#cloud3" },
-    { id: "cloud5", img: cloud2, next: "#cloud6", prev: "#cloud4" },
-    { id: "cloud6", img: cloud6, next: "#cloud1", prev: "#cloud5" },
+    { id: "anali1", img: anali1, next: "#anali2", prev: "#anali4" },
+    { id: "anali2", img: anali2, next: "#anali3", prev: "#anali1" },
+    { id: "anali3", img: anali3, next: "#anali4", prev: "#anali2" },
+    { id: "anali4", img: anali4, next: "#anali1", prev: "#anali3" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />

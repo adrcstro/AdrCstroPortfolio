@@ -59,8 +59,8 @@ function About({ isDarkMode }) {
                   Interest & Hobbies <FcIdea className='ml-2 w-6 h-7'/>
                 </h3>
                 <p className={`text-sm text-justify ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                I'm passionate about web development and enjoy exploring new technologies and design trends. I love coding, especially when it comes to creating clean, responsive interfaces and solving complex problems. 
-             
+                I'm passionate about web development and enjoy exploring new technologies and design trends. I love coding, especially when it comes to creating clean, responsive interfaces and solving complex problems. Beyond development, I have a keen interest in UI/UX design, always looking for ways to 
+                enhance user experiences.
                 </p>
               </div>
             </motion.div>

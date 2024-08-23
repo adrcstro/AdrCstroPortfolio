@@ -155,6 +155,7 @@ function Experience({ isDarkMode }) {
                   <FaHtml5 className='w-10 h-10' />
                   <IoLogoCss3 className='w-10 h-10' />
                   <FaJs className='w-10 h-10' />
+                  <RiTailwindCssFill className='w-10 h-10' />
                   <SiMysql className='w-10 h-10' />
                   <FaBootstrap className='w-10 h-10' />
                   <FaGitAlt className='w-10 h-10' />

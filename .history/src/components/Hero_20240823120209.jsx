@@ -4,14 +4,15 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaHandsClapping } from "react-icons/fa6";
 import { Link  } from 'react-scroll';
 import {motion} from 'framer-motion';
-import resumePDF from '../assets/CastroAndreThomasLiquidoCV.pdf'; // Adjust the path accordingly
 
 //variants
 import {fadeIn} from '../variants'
 
-const handleClick = () => {
-  window.open(resumePDF, '_blank');
-};
+const OpenPdfButton = () => {
+  const handleClick = () => {
+    // Replace 'path/to/your/file.pdf' with the actual path to your PDF
+    window.open('path/to/your/file.pdf', '_blank');
+  };
 
 
 function Hero({ isDarkMode }) {
@@ -80,12 +81,10 @@ function Hero({ isDarkMode }) {
             </motion.div>
           </div>
           <div className='justify-between'>  
-          <button 
-      className="btn btn-primary text-white mr-4 font-bold shadow-lg rounded-full px-8"
-      onClick={handleClick}
-    >
-      <IoDocumentTextOutline className='w-5 h-5' /> Resume
-    </button>
+            <button onClick={handleClick}
+             className="btn btn-primary text-white mr-4 font-bold shadow-lg rounded-full px-8">
+              <IoDocumentTextOutline className='w-5 h-5'/>Resume
+            </button>
             <Link to="Contact" spy={true} smooth={true} offset={-70}  duration={500}>
             <button
              className={`btn btn-transparent shadow-lg font-bold border rounded-full px-8 ${isDarkMode ? 'border-white' : 'border-gray-900'}`}>

@@ -40,13 +40,13 @@ function Navbar({ isDarkMode, toggleTheme }) {
               <Link to="Technology" spy={true} smooth={true} offset={-120}  duration={500}>Tools & Technologies</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-            <Link to="Experience" spy={true} smooth={true} offset={-90}  duration={500}>Experience</Link>
+            <Link to="Experience" spy={true} smooth={true} offset={-110}  duration={500}>Experience</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
               <Link to="Projects" spy={true} smooth={true} offset={-80}  duration={500}>Projects</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Education" spy={true} smooth={true} offset={-60}  duration={500}>Education</Link>
+              <Link to="Education" spy={true} smooth={true} offset={-70}  duration={500}>Education</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
               <Link to="Contact" spy={true} smooth={true} offset={-50}  duration={500}>Contact</Link>

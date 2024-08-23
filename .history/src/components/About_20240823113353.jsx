@@ -43,7 +43,7 @@ function About({ isDarkMode }) {
                   Personal Identification<FcManager className='ml-2 w-6 h-7' />
                 </h3>
                 <p className={`text-sm text-justify ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                  Hi! I'm Andre Thomas Castro and I'm a Full stack web developer base in philippines. I'm 21 years old and currently living here in Antipolo, Philippines .
+                  Hi! I'm Andre Thomas Castro and I'm a Full stack web developer base in philippines. I'm 21 years old and currently living here in Antipolo, Philippines.
                 </p>
               </div>
             </motion.div>
@@ -59,8 +59,8 @@ function About({ isDarkMode }) {
                   Interest & Hobbies <FcIdea className='ml-2 w-6 h-7'/>
                 </h3>
                 <p className={`text-sm text-justify ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                I'm passionate about web development and enjoy exploring new technologies and design trends. I love coding, especially when it comes to creating clean, responsive interfaces and solving complex problems. 
-             
+                I'm passionate about web development and enjoy exploring new technologies and design trends. I love coding, especially when it comes to creating clean, responsive interfaces and solving complex problems. Beyond development, I have a keen interest in UI/UX design, always looking for ways to 
+                enhance user experiences.
                 </p>
               </div>
             </motion.div>
@@ -76,7 +76,8 @@ function About({ isDarkMode }) {
                   Goals and Aspirations <FcComboChart className='ml-2 w-6 h-7'/>
                 </h3>
                 <p className={`text-sm text-justify ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                  My Goals and Inspiration as a Developer is i want to learn heavy backend technologies I aim to continuously learn and stay updated with the latest trends, contributing to the open-source community.
+                  My Goals and Inspiration as a Developer is i want to learn heavy backend technologies I aim to continuously learn and stay updated with the latest trends, contributing to the open-source community
+                  I strive to optimize performance and collaborate effectively, ensuring innovative and seamless web experiences. 
                 </p>
               </div>
             </motion.div>
@@ -92,7 +93,8 @@ function About({ isDarkMode }) {
                   Skills and Abilities <FcServices className='ml-2 w-6 h-7' />
                 </h3>
                 <p className={`text-sm text-justify ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
-                I am proficient in front-end technologies like HTML, CSS, and JavaScript, with experience in creating responsive designs using frameworks like Tailwind CSS and libraries such as React.
+                I am proficient in front-end technologies like HTML, CSS, and JavaScript, with experience in creating responsive designs using frameworks like Tailwind CSS and libraries such as React
+                and for backend development I used Java , Javascript and PHP and for the Database is MuSQL
                 </p>
               </div>
             </motion.div>

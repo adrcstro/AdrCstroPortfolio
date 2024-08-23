@@ -46,7 +46,7 @@ function Navbar({ isDarkMode, toggleTheme }) {
               <Link to="Projects" spy={true} smooth={true} offset={-80}  duration={500}>Projects</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
-              <Link to="Education" spy={true} smooth={true} offset={-60}  duration={500}>Education</Link>
+              <Link to="Education" spy={true} smooth={true} offset={-50}  duration={500}>Education</Link>
             </li>
             <li className={`transition-transform transform hover:scale-105 text-sm font-semibold ${isDarkMode ? 'hover:bg-gray-700' : 'hover:bg-gray-300'}`}>
               <Link to="Contact" spy={true} smooth={true} offset={-50}  duration={500}>Contact</Link>

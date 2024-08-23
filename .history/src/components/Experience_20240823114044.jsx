@@ -142,19 +142,20 @@ function Experience({ isDarkMode }) {
             </div>
             <div className={`w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] p-4 rounded border ${isDarkMode ? 'border-gray-600 bg-gray-800' : 'border-slate-200'} shadow`}>
               <div className="flex items-center justify-between space-x-2 mb-1">
-                <div className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Plate-to-Place: <span className='text-slate-500 text-sm'>Tricycle Tracking Management System</span></div>
-                <time className="font-caveat font-medium text-indigo-500">2022/2023</time>
+                <div className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>LANGSYS: <span className='text-slate-500 text-sm'>Language Learning System (20 Foreign Language to Learn)</span></div>
+                <time className="font-caveat font-medium text-indigo-500">2021/2022</time>
               </div>
               <div className={`text-slate-500 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
                 <div className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Role: <span className='text-slate-500 text-sm'>Full Stack Developer</span></div>
                 <h3 className={`font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Description:</h3>
-                <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}> The "Plate-to-Place" is an innovative web application designed to manage and track tricycles within a specific area or fleet. This system allows administrators to monitor tricycle locations in real-time, manage driver assignments, and ensure efficient operation across routes.</p>
+                <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>A Java-based application designed to facilitate language learning through interactive lessons.</p>
                 <h3 className={`font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Technology Used:</h3>
                 <div className='flex p-2 gap-2'>
                   <SiPhp className='w-10 h-10' />
                   <FaHtml5 className='w-10 h-10' />
                   <IoLogoCss3 className='w-10 h-10' />
                   <FaJs className='w-10 h-10' />
+                  <RiTailwindCssFill className='w-10 h-10' />
                   <SiMysql className='w-10 h-10' />
                   <FaBootstrap className='w-10 h-10' />
                   <FaGitAlt className='w-10 h-10' />
@@ -190,12 +191,16 @@ function Experience({ isDarkMode }) {
               <div className={`text-slate-500 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>
                 <div className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>Role: <span className='text-slate-500 text-sm'>Full Stack Developer</span></div>
                 <h3 className={`font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Description:</h3>
-                <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>A Java-based application designed to  innovative Java application designed to facilitate language acquisition across 20 different foreign languages. This user-friendly platform provides a comprehensive suite of tools and resources tailored for learners at all levels, from beginners to advanced speakers.</p>
+                <p className={`text-sm ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}>A Java-based application designed to facilitate language learning through interactive lessons.</p>
                 <h3 className={`font-bold ${isDarkMode ? 'text-white' : 'text-black'}`}>Technology Used:</h3>
                 <div className='flex p-2 gap-2'>
-                <FaJava className='w-10 h-10' />
-                <DiNetbeans className='w-10 h-10' />
+                  <SiPhp className='w-10 h-10' />
+                  <FaHtml5 className='w-10 h-10' />
+                  <IoLogoCss3 className='w-10 h-10' />
+                  <FaJs className='w-10 h-10' />
                   <SiMysql className='w-10 h-10' />
+                  <FaBootstrap className='w-10 h-10' />
+                  <SiJquery className='w-10 h-10' />
                   <FaGitAlt className='w-10 h-10' />
                 </div>
               </div>

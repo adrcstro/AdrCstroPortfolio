@@ -10,9 +10,9 @@ import resumePDF from '../assets/CastroAndreThomasLiquidoCV.pdf'; // Adjust the 
 import {fadeIn} from '../variants'
 
 const handleClick = () => {
-  window.open(resumePDF, '_blank');
+  // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
+  window.open('', '_blank');
 };
-
 
 function Hero({ isDarkMode }) {
   return (

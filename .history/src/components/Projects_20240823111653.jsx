@@ -53,12 +53,6 @@ import anali2 from '../assets/ProjectsAsset/IndividualProjectAssets/anali2.png'
 import anali3 from '../assets/ProjectsAsset/IndividualProjectAssets/anali3.png'
 import anali4 from '../assets/ProjectsAsset/IndividualProjectAssets/anali4.png'
 
-import cloud1 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud1.png'
-import cloud2 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud2.png'
-import cloud3 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud3.png'
-import cloud4 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud4.png'
-import cloud5 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud5.png'
-import cloud6 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud6.png'
 
 
 
@@ -607,12 +601,10 @@ function Projects({ isDarkMode }) {
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "cloud1", img: cloud1, next: "#cloud2", prev: "#cloud6" },
-    { id: "cloud2", img: cloud5, next: "#cloud3", prev: "#cloud1" },
-    { id: "cloud3", img: cloud4, next: "#cloud4", prev: "#cloud2" },
-    { id: "cloud4", img: cloud3, next: "#cloud5", prev: "#cloud3" },
-    { id: "cloud5", img: cloud2, next: "#cloud6", prev: "#cloud4" },
-    { id: "cloud6", img: cloud6, next: "#cloud1", prev: "#cloud5" },
+    { id: "anali1", img: anali1, next: "#anali2", prev: "#anali4" },
+    { id: "anali2", img: anali2, next: "#anali3", prev: "#anali1" },
+    { id: "anali3", img: anali3, next: "#anali4", prev: "#anali2" },
+    { id: "anali4", img: anali4, next: "#anali1", prev: "#anali3" },
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />
@@ -635,12 +627,12 @@ function Projects({ isDarkMode }) {
           <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
             <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
             <ul className="list-disc list-inside">
-            <li>Developed a fully responsive hero section with a modern design, including a call-to-action button that adapts to different screen sizes.</li>
-  <li>Implemented service offerings section using reusable React components, ensuring consistency and easy maintenance across the application.</li>
-  <li>Created client testimonials carousel with smooth transitions and optimized performance using Framer Motion.</li>
-  <li>Integrated Tailwind CSS to style the landing page, achieving a clean and consistent design throughout the project.</li>
-  <li>Optimized the page load time by implementing lazy loading for images and code-splitting techniques.</li>
-  <li>Ensured cross-browser compatibility and accessibility by testing and debugging the landing page on various devices and browsers.</li>
+            <li>Cloned the landing page layout using React to ensure a responsive and visually appealing design.</li>
+            <li>Implemented data visualization components using charting libraries to display analytics effectively.</li>
+            <li>Developed reusable React components for navigation, headers, and footers to promote code modularity.</li>
+            <li>Integrated mock data sources to simulate real-time analytics, enhancing the user experience.</li>
+            <li>Optimized the application for performance by implementing lazy loading and code-splitting techniques.</li>
+            <li>Conducted thorough testing and debugging to ensure functionality across different browsers and devices.</li>
             </ul>
           </p>
           <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>

@@ -53,12 +53,6 @@ import anali2 from '../assets/ProjectsAsset/IndividualProjectAssets/anali2.png'
 import anali3 from '../assets/ProjectsAsset/IndividualProjectAssets/anali3.png'
 import anali4 from '../assets/ProjectsAsset/IndividualProjectAssets/anali4.png'
 
-import cloud1 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud1.png'
-import cloud2 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud2.png'
-import cloud3 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud3.png'
-import cloud4 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud4.png'
-import cloud5 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud5.png'
-import cloud6 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud6.png'
 
 
 
@@ -507,10 +501,11 @@ function Projects({ isDarkMode }) {
         {/* Carousel Section */}
         <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
   {[
-    { id: "anali1", img: anali1, next: "#anali2", prev: "#anali4" },
-    { id: "anali2", img: anali2, next: "#anali3", prev: "#anali1" },
-    { id: "anali3", img: anali3, next: "#anali4", prev: "#anali2" },
-    { id: "anali4", img: anali4, next: "#anali1", prev: "#anali3" },
+    { id: "anali1", img: anali1, next: "#anali2", prev: "#anali1" },
+    { id: "anali2", img: anali2, next: "#anali3", prev: "#anali2" },
+    { id: "anali3", img: anali4, next: "#anali4", prev: "#anali3" },
+    { id: "anali4", img: anali3, next: "#anali4", prev: "#anali4" },
+   
   ].map(({ id, img, next, prev }) => (
     <div key={id} id={id} className="carousel-item relative w-full h-full">
       <img src={img} className="w-full h-full object-contain" alt="Slide" />
@@ -521,7 +516,6 @@ function Projects({ isDarkMode }) {
     </div>
   ))}
 </div>
-
         {/* Text Content Section */}
         <div className="w-full p-4 mt-4">
       
@@ -591,74 +585,9 @@ function Projects({ isDarkMode }) {
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_1').showModal()}/></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white'/></div>
     </div>
   </motion.div>
-
-  <dialog id="my_modal_1" className="modal">
-  <div className={`modal-box w-11/12 max-w-6xl h-auto md:h-[600px] ${isDarkMode ? 'bg-slate-800 ' : 'text-primary-800'}`}>
-    <form method="dialog">
-      {/* Close Button */}
-      <button className={`btn btn-sm btn-circle btn-ghost absolute right-2 top-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>✕</button>
-    </form>
-    <div className="flex flex-col h-full p-4 overflow-hidden">
-      {/* Scrollable Content Section */}
-      <div  className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-        {/* Carousel Section */}
-        <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
-  {[
-    { id: "cloud1", img: cloud1, next: "#cloud2", prev: "#cloud6" },
-    { id: "cloud2", img: cloud5, next: "#cloud3", prev: "#cloud1" },
-    { id: "cloud3", img: cloud4, next: "#cloud4", prev: "#cloud2" },
-    { id: "cloud4", img: cloud3, next: "#cloud5", prev: "#cloud3" },
-    { id: "cloud5", img: cloud2, next: "#cloud6", prev: "#cloud4" },
-    { id: "cloud6", img: cloud6, next: "#cloud1", prev: "#cloud5" },
-  ].map(({ id, img, next, prev }) => (
-    <div key={id} id={id} className="carousel-item relative w-full h-full">
-      <img src={img} className="w-full h-full object-contain" alt="Slide" />
-      <div className="absolute inset-y-1/2 left-5 right-5 flex justify-between transform -translate-y-1/2">
-        <a href={prev} className="btn btn-circle">❮</a>
-        <a href={next} className="btn btn-circle">❯</a>
-      </div>
-    </div>
-  ))}
-</div>
-
-        {/* Text Content Section */}
-        <div className="w-full p-4 mt-4">
-      
-        <h2  className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-        Cloud Management Landing Page (Cloned)
-          </h2>
-          <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Front-End Developer</p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}><span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span>  The Cloud Management Landing Page (Cloned) project is a React-based web application that replicates the design and functionality of a modern cloud management platform's landing page. </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
-            <ul className="list-disc list-inside">
-            <li>Developed a fully responsive hero section with a modern design, including a call-to-action button that adapts to different screen sizes.</li>
-  <li>Implemented service offerings section using reusable React components, ensuring consistency and easy maintenance across the application.</li>
-  <li>Created client testimonials carousel with smooth transitions and optimized performance using Framer Motion.</li>
-  <li>Integrated Tailwind CSS to style the landing page, achieving a clean and consistent design throughout the project.</li>
-  <li>Optimized the page load time by implementing lazy loading for images and code-splitting techniques.</li>
-  <li>Ensured cross-browser compatibility and accessibility by testing and debugging the landing page on various devices and browsers.</li>
-            </ul>
-          </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Technology Used:</span>
-          </p>
-          <div  className={`flex p-2 gap-2 ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-          <FaHtml5 className='w-10 h-10' />
-                  <IoLogoCss3 className='w-10 h-10' />
-                  <FaJs className='w-10 h-10' />
-                  <FaReact className='w-10 h-10' />
-                  <FaGitAlt className='w-10 h-10' />
-                 
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</dialog>
 
 
 

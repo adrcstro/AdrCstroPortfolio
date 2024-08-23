@@ -4,15 +4,14 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaHandsClapping } from "react-icons/fa6";
 import { Link  } from 'react-scroll';
 import {motion} from 'framer-motion';
-import resumePDF from '../assets/CastroAndreThomasLiquidoCV.pdf'; // Adjust the path accordingly
 
 //variants
 import {fadeIn} from '../variants'
 
 const handleClick = () => {
-  window.open(resumePDF, '_blank');
+  // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
+  window.open('path/to/your/resume.pdf', '_blank');
 };
-
 
 function Hero({ isDarkMode }) {
   return (
