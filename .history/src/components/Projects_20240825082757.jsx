@@ -92,7 +92,7 @@ function Projects({ isDarkMode }) {
       <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Brgy-409 Document Request Management System (DRMS)</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/ResiQuest-BRGY409' target="_blank" rel='noreferrer'><FaGithub   className='w-4 h-4 text-white '/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub href='https://github.com/adrcstro/ResiQuest-BRGY409' target="_blank"  className='w-4 h-4 text-white '/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105' onClick={()=>document.getElementById('my_modal_3').showModal()}><FaArrowUpRightFromSquare className='w-4 h-4 text-white '/></div>
     </div>
   </motion.div>
@@ -181,7 +181,7 @@ function Projects({ isDarkMode }) {
       <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}> A comprehensive solution for managing coffee shop operations</p>
    </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/BeantoCUp' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_4').showModal()}/></div>
     </div>
   </motion.div>
@@ -276,7 +276,7 @@ function Projects({ isDarkMode }) {
     
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/TrackingManagement' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_5').showModal()}/></div>
     </div>
   </motion.div>
@@ -369,7 +369,7 @@ function Projects({ isDarkMode }) {
       <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>A Java-based application designed to facilitate language learning through interactive lessons</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/LANGUAGELEARNINGSYSTEM' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_6').showModal()}/></div>
     </div>
   </motion.div>
@@ -463,7 +463,7 @@ function Projects({ isDarkMode }) {
     <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Dynamic Landing Page for Data Analytics Composed of financial Growth</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/react-project-1' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_2').showModal()}/></div>
     </div>
   </motion.div>
@@ -564,7 +564,7 @@ function Projects({ isDarkMode }) {
     <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Dynamic Landing Page for Cloud Computing and API Development</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/react-project-2' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_1').showModal()}/></div>
     </div>
   </motion.div>

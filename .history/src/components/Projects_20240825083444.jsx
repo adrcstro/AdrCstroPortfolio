@@ -564,7 +564,7 @@ function Projects({ isDarkMode }) {
     <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Dynamic Landing Page for Cloud Computing and API Development</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/react-project-2' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaGithub className='w-4 h-4 text-white'/></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_1').showModal()}/></div>
     </div>
   </motion.div>
