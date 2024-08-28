@@ -116,7 +116,7 @@ function Contact({isDarkMode}) {
   <div className="flex items-center  p-4 rounded-lg min-w-[70px]">
     <img className="rounded-lg w-16 h-16 mr-4" src={contact9} alt="React Js" />
     <div className='flex-grow'> 
-    <p className='text-md mb-[-6px] font-semibold text-slate-400'>WhatsApp (Philippines +63)</p>
+    <p className='text-md mb-[-6px] font-semibold text-slate-400'>Whatsapp(Philippines +63)</p>
     <h4 className="flex items-center text-lg text-slate-400 font-bold">+63 9284864322</h4> 
 </div>
   </div>
