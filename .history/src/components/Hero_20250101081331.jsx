@@ -4,10 +4,14 @@ import { IoDocumentTextOutline } from "react-icons/io5";
 import { FaHandsClapping } from "react-icons/fa6";
 import { Link  } from 'react-scroll';
 import {motion} from 'framer-motion';
+import resumePDF from '../assets/CastroAndreThomasLiquidoCV.pdf'; // Adjust the path accordingly
 
 //variants
 import {fadeIn} from '../variants'
 
+const handleClick = () => {
+  window.open(resumePDF, '_blank');
+};
 
 
 function Hero({ isDarkMode }) {
@@ -41,8 +45,8 @@ function Hero({ isDarkMode }) {
            whileInView={"show"}
            viewport={{once: false, amount:0.7}}
              className="flex items-center space-x-2 shrink-0 mt-2">
-              <p className={`font-semibold rounded-lg py-2 px-2 ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2.5</p>
-              <p className="text-sm font-semibold text-start">Years of<br/>Experience</p>
+              <p className={`rounded-lg py-2 px-2 font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2.5</p>
+              <p className="text-sm  text-start font-montserrat">Years of<br/>Experience</p>
             </motion.div>
 
             <motion.div
@@ -76,10 +80,12 @@ function Hero({ isDarkMode }) {
             </motion.div>
           </div>
           <div className='justify-between'>  
-            <button 
-             className="btn btn-primary text-white mr-4 font-bold shadow-lg rounded-full px-8">
-              <IoDocumentTextOutline className='w-5 h-5'/>Resume
-            </button>
+          <button 
+      className="btn btn-primary text-white mr-4 font-bold shadow-lg rounded-full px-8"
+      onClick={handleClick}
+    >
+      <IoDocumentTextOutline className='w-5 h-5' /> Resume
+    </button>
             <Link to="Contact" spy={true} smooth={true} offset={-70}  duration={500}>
             <button
              className={`btn btn-transparent shadow-lg font-bold border rounded-full px-8 ${isDarkMode ? 'border-white' : 'border-gray-900'}`}>

@@ -45,8 +45,8 @@ function Hero({ isDarkMode }) {
            whileInView={"show"}
            viewport={{once: false, amount:0.7}}
              className="flex items-center space-x-2 shrink-0 mt-2">
-              <p className={`font-semibold rounded-lg py-2 px-2 ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2.5</p>
-              <p className="text-sm font-semibold text-start">Years of<br/>Experience</p>
+              <p className={`rounded-lg py-2 px-2 font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2.5</p>
+              <p className="text-sm  text-start font-montserrat">Years of<br/>Experience</p>
             </motion.div>
 
             <motion.div
