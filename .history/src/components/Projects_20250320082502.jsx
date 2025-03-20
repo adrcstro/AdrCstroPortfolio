@@ -7,10 +7,8 @@ import thumb3 from '../assets/ProjectsAsset/TricycleThumbnail.png'
 import thumb4 from '../assets/ProjectsAsset/LangsysThumbnail.png'
 import thumb5 from '../assets/ProjectsAsset/reactp1thumbnaikl.png'
 import thumb6 from '../assets/ProjectsAsset/reactp2thumbnail.png'
-import { SiVite } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 import { FaHtml5, FaJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql, SiJquery } from "react-icons/si";
@@ -45,7 +43,12 @@ import anali1 from '../assets/ProjectsAsset/IndividualProjectAssets/anali1.png'
 import anali2 from '../assets/ProjectsAsset/IndividualProjectAssets/anali2.png'
 import anali3 from '../assets/ProjectsAsset/IndividualProjectAssets/anali3.png'
 import anali4 from '../assets/ProjectsAsset/IndividualProjectAssets/anali4.png'
-import currency from '../assets/ProjectsAsset/currency.png'
+import cloud1 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud1.png'
+import cloud2 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud2.png'
+import cloud3 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud3.png'
+import cloud4 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud4.png'
+import cloud5 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud5.png'
+import cloud6 from '../assets/ProjectsAsset/IndividualProjectAssets/cloud6.png'
 
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
@@ -551,7 +554,7 @@ function Projects({ isDarkMode }) {
    className={`card bg-[#F7DCB9] w-full shadow-xl flex flex-col ${isDarkMode ? 'bg-slate-800 ' : 'text-primary-800'}`}>
     <figure className="px-4 pt-10">
       <img
-        src={currency}
+        src={thumb6}
         alt="Shoes"
         className="rounded-xl transition-transform transform hover:scale-105"
       />
@@ -561,7 +564,7 @@ function Projects({ isDarkMode }) {
     <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Effortlessly convert currencies in real-time with accurate exchange rates at your fingertips.</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/withcenter_developer_exam' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/react-project-2' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_1').showModal()}/></div>
     </div>
   </motion.div>
@@ -573,57 +576,48 @@ function Projects({ isDarkMode }) {
       <button className={`btn btn-sm btn-circle btn-ghost absolute right-2 top-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>✕</button>
     </form>
     <div className="flex flex-col h-full p-4 overflow-hidden">
-      {/* Scrollable Content Section */}
-      <div className={`w-full h-full overflow-y-auto ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-        
-        {/* Single Image Section */}
-        <div className="carousel w-full h-full border-2 rounded-lg border-slate-400">
-          <div className="carousel-item relative w-full h-full">
-            <img src={currency} className="w-full h-full object-contain" alt="Slide" />
-          </div>
-        </div>
+      {/* Image Section */}
+      <div className="w-full h-[300px] border-2 rounded-lg border-slate-400 flex justify-center items-center">
+        <img src={cloud1} className="w-full h-full object-contain" alt="Project Preview" />
+      </div>
 
-        {/* Text Content Section */}
-        <div className="w-full p-4 mt-4">
-          <h2 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-            Currency Converter
-          </h2>
-          <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Full Stack Developer
-          </p>
-         
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span> Built with React + Vite and TypeScript, this currency converter app ensures high performance and a seamless user experience. It uses Redux for efficient state management and TanStack Query for real-time data fetching and caching of exchange rates.
-          </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
-            <ul className="list-disc list-inside">
-  <li>Developed a user-friendly interface that allows users to convert currencies in real-time with accurate exchange rates.</li>
-  <li>Integrated an API to fetch live currency exchange rates and ensure up-to-date conversions.</li>
-  <li>Implemented a currency selector dropdown with over 150 supported currencies for easy user selection.</li>
-  <li>Designed a responsive layout using Tailwind CSS, ensuring smooth usability across all devices.</li>
-  <li>Optimized app performance by implementing lazy loading for currency data and reducing API calls.</li>
-  <li>Ensured cross-browser compatibility and accessibility by testing on various devices and screen sizes.</li>
-</ul>
-          </p>
-          <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
-            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Technology Used:</span>
-          </p>
-          <div className={`flex p-2 gap-2 ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
-            <FaHtml5 className='w-10 h-10' />
-            <IoLogoCss3 className='w-10 h-10' />
-            <FaJs className='w-10 h-10' />
-            <FaReact className='w-10 h-10' />
-            <FaGitAlt className='w-10 h-10' />
-            <SiTypescript className='w-10 h-10' />
-            <SiVite className='w-10 h-10' />
-          </div>
+      {/* Text Content Section */}
+      <div className="w-full p-4 mt-4">
+        <h2 className={`text-2xl font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
+          Currency Converter
+        </h2>
+        <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+          <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Front-End Developer
+        </p>
+        <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+          <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span>  
+          The Cloud Management Landing Page (Cloned) project is a React-based web application that replicates the design and functionality of a modern cloud management platform's landing page.
+        </p>
+        <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+          <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Activities:</span>
+          <ul className="list-disc list-inside">
+            <li>Developed a fully responsive hero section with a modern design, including a call-to-action button that adapts to different screen sizes.</li>
+            <li>Implemented service offerings section using reusable React components, ensuring consistency and easy maintenance across the application.</li>
+            <li>Created client testimonials carousel with smooth transitions and optimized performance using Framer Motion.</li>
+            <li>Integrated Tailwind CSS to style the landing page, achieving a clean and consistent design throughout the project.</li>
+            <li>Optimized the page load time by implementing lazy loading for images and code-splitting techniques.</li>
+            <li>Ensured cross-browser compatibility and accessibility by testing and debugging the landing page on various devices and browsers.</li>
+          </ul>
+        </p>
+        <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+          <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Technology Used:</span>
+        </p>
+        <div className={`flex p-2 gap-2 ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>
+          <FaHtml5 className='w-10 h-10' />
+          <IoLogoCss3 className='w-10 h-10' />
+          <FaJs className='w-10 h-10' />
+          <FaReact className='w-10 h-10' />
+          <FaGitAlt className='w-10 h-10' />
         </div>
       </div>
     </div>
   </div>
 </dialog>
-
 
 
 

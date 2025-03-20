@@ -7,10 +7,8 @@ import thumb3 from '../assets/ProjectsAsset/TricycleThumbnail.png'
 import thumb4 from '../assets/ProjectsAsset/LangsysThumbnail.png'
 import thumb5 from '../assets/ProjectsAsset/reactp1thumbnaikl.png'
 import thumb6 from '../assets/ProjectsAsset/reactp2thumbnail.png'
-import { SiVite } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 import { FaHtml5, FaJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
 import { IoLogoCss3 } from "react-icons/io5";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiMysql, SiJquery } from "react-icons/si";
@@ -561,7 +559,7 @@ function Projects({ isDarkMode }) {
     <p className={`px-4 text-sm  ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>Effortlessly convert currencies in real-time with accurate exchange rates at your fingertips.</p>
     </div>
     <div className='flex justify-end p-4 gap-2 mt-auto'>
-      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/withcenter_developer_exam' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
+      <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><a href='https://github.com/adrcstro/react-project-2' target="_blank" rel='noreferrer'><FaGithub className='w-4 h-4 text-white'/></a></div>
       <div className='bg-slate-600 rounded-lg p-2 transition-transform transform hover:scale-105'><FaArrowUpRightFromSquare className='w-4 h-4 text-white' onClick={()=>document.getElementById('my_modal_1').showModal()}/></div>
     </div>
   </motion.div>
@@ -591,7 +589,9 @@ function Projects({ isDarkMode }) {
           <p className={`mt-2 ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
             <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Role: </span> Full Stack Developer
           </p>
-         
+          <p className={` ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
+            <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Project Link: </span> https://withcenter-developer-exam-u2ix.vercel.app/
+          </p>
           <p className={`text-justify ${isDarkMode ? 'text-slate-300' : 'text-slate-800'}`}>
             <span className={`font-bold ${isDarkMode ? 'text-white' : 'text-slate-800'}`}>Description:</span> Built with React + Vite and TypeScript, this currency converter app ensures high performance and a seamless user experience. It uses Redux for efficient state management and TanStack Query for real-time data fetching and caching of exchange rates.
           </p>
@@ -615,8 +615,6 @@ function Projects({ isDarkMode }) {
             <FaJs className='w-10 h-10' />
             <FaReact className='w-10 h-10' />
             <FaGitAlt className='w-10 h-10' />
-            <SiTypescript className='w-10 h-10' />
-            <SiVite className='w-10 h-10' />
           </div>
         </div>
       </div>

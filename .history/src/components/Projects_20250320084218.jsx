@@ -7,7 +7,6 @@ import thumb3 from '../assets/ProjectsAsset/TricycleThumbnail.png'
 import thumb4 from '../assets/ProjectsAsset/LangsysThumbnail.png'
 import thumb5 from '../assets/ProjectsAsset/reactp1thumbnaikl.png'
 import thumb6 from '../assets/ProjectsAsset/reactp2thumbnail.png'
-import { SiVite } from "react-icons/si";
 import { SiPhp } from "react-icons/si";
 import { FaHtml5, FaJs, FaGitAlt, FaBootstrap } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
@@ -616,7 +615,6 @@ function Projects({ isDarkMode }) {
             <FaReact className='w-10 h-10' />
             <FaGitAlt className='w-10 h-10' />
             <SiTypescript className='w-10 h-10' />
-            <SiVite className='w-10 h-10' />
           </div>
         </div>
       </div>

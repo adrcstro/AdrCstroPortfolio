@@ -37,7 +37,7 @@ function About({ isDarkMode }) {
               initial="hidden"
               whileInView={"show"}
                viewport={{ once: true, amount: 0.7 }} 
-              className={`p-4 border-2 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
+              className={`p-4 border-4 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
             >
               <h3 className={`flex items-center text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 Personal Identification <FcManager className='ml-2 w-6 h-6' />
@@ -52,7 +52,7 @@ function About({ isDarkMode }) {
               initial="hidden"
               whileInView={"show"}
                viewport={{ once: true, amount: 0.7 }} 
-              className={`p-4 border-2 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
+              className={`p-4 border-4 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
             >
               <h3 className={`flex items-center text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 Interests & Hobbies <FcIdea className='ml-2 w-6 h-6' />
@@ -67,7 +67,7 @@ function About({ isDarkMode }) {
               initial="hidden"
               whileInView={"show"}
                viewport={{ once: true, amount: 0.7 }} 
-              className={`p-4 border-2 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
+              className={`p-4 border-4 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
             >
               <h3 className={`flex items-center text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 Goals & Aspirations <FcComboChart className='ml-2 w-6 h-6' />
@@ -82,7 +82,7 @@ function About({ isDarkMode }) {
               initial="hidden"
               whileInView={"show"}
                viewport={{ once: true, amount: 0.7 }} 
-              className={`p-4 border-2 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
+              className={`p-4 border-4 border-gray-400 rounded-lg shadow-lg ${isDarkMode ? 'bg-gray-800' : 'bg-white'}`}
             >
               <h3 className={`flex items-center text-xl font-bold mb-4 ${isDarkMode ? 'text-white' : 'text-black'}`}>
                 Skills & Abilities <FcServices className='ml-2 w-6 h-6' />

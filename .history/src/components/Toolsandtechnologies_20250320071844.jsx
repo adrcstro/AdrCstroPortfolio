@@ -34,14 +34,6 @@ import Expressjs from '../assets/Expressjs.png';
 import twilio from '../assets/twilio.png';
 import laravel from '../assets/laravel.png';
 
-import Vite from '../assets/Vite.png';
-import VueJs from '../assets/VueJs.png';
-import Typescript from '../assets/Typescript.png';
-
-
-
-
-
 
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
@@ -76,195 +68,198 @@ function Toolsandtechnologies({ isDarkMode }) {
         className='flex flex-wrap justify-center gap-2'>
           <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
             <img className='mx-auto rounded-lg' src={html} alt='HTML' />
-            <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>HTML</p>
+            <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>HTML</p>
           </div>
 
           
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={Css} alt='CSS' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>CSS</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>CSS</p>
   </div>
 
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
+  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 /* The
+  above
+  code
+  appears
+  to
+  be
+  a
+  comment
+  block
+  in
+  JavaScript
+  React.
+  It
+  mentions
+  the
+  word
+  "rounded"
+  and
+  includes
+  the
+  characters
+  " */
+  rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={js} alt='JavaScript' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>JavaScript</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>JavaScript</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={react} alt='React Js' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>React Js</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>React Js</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={java} alt='Java' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Java</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Java</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={mysql} alt='MySQL' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>MySQL</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>MySQL</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={Bootstrap} alt='Bootstrap' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Bootstrap</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Bootstrap</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={Git} alt='Git' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Git</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Git</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={github} alt='GitHub' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>GitHub</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>GitHub</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={cpanel} alt='Cpanel' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Cpanel</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Cpanel</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={material} alt='Material UI' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Material UI</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Material UI</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={npm} alt='NPM' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>NPM</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>NPM</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={tailwindcss} alt='Tailwind CSS' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Tailwind CSS</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Tailwind CSS</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={vscode} alt='VS Code' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>VS Code</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>VS Code</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={figma} alt='Figma' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Figma</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Figma</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={Chrome} alt='Chrome' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Chrome</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Chrome</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg mt-2 w-[48px]' src={php} alt='PHP' />
-    <p className={`text-sm text-center font-semibold font-montserrat mt-2 ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PHP</p>
+    <p className={`text-sm text-center font-semibold mt-2 ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PHP</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={phpserver} alt='PHP Server' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PHP Server</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PHP Server</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={phyton} alt='Python' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Python</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Python</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={reactnative} alt='React Native' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>React Native</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>React Native</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={intellij} alt='IntelliJ' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>IntelliJ</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>IntelliJ</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={pycharm} alt='PyCharm' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PyCharm</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>PyCharm</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={node} alt='Node.js' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Node.js</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Node.js</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={canva} alt='Canva' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Canva</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Canva</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={xampp} alt='XAMPP' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>XAMPP</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>XAMPP</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={gradle} alt='Gradle' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Gradle</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Gradle</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={cakephp} alt='CakePHP' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>CakePHP</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>CakePHP</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={workbench} alt='MySQL Workbench' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Workbench</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Workbench</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={android} alt='Android Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Android Studio</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Android Studio</p>
   </div>
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={visualstudio} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Visual Studio</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Visual Studio</p>
   </div>
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={framer} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Framer Motion</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Framer Motion</p>
   </div>
 
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={Expressjs} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>ExpressJs</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>ExpressJs</p>
   </div>
 
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={laravel} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>laravel</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>laravel</p>
   </div>
 
 
   <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg w-[48px]' src={twilio} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Twilio</p>
+    <p className={`text-sm text-center font-semibold ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Twilio</p>
   </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={VueJs} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>VueJs</p>
-  </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={Vite} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Vite</p>
-  </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={Typescript} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Typescript</p>
-  </div>
-
 
 
 

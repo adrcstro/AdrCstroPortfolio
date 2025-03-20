@@ -13,15 +13,15 @@ const handleClick = () => {
   window.open(resumePDF, '_blank');
 };
 
-
+ 
 function Hero({ isDarkMode }) {
   return (
     <div name="Home" className={`hero min-h-screen ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
       <motion.div
-           variants={fadeIn("up",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }} 
+  variants={fadeIn("up", 0.2)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.7 }} 
       
       
       
@@ -40,40 +40,40 @@ function Hero({ isDarkMode }) {
           <div className="flex flex-wrap justify-between py-6 px-4 md:px-8 lg:px-16">
             
             <motion.div
-          variants={fadeIn("left",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }} 
+         variants={fadeIn("up", 0.2)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.7 }} 
              className="flex items-center space-x-2 shrink-0 mt-2">
               <p className={`font-semibold rounded-lg py-2 px-2 font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2.5</p>
               <p className="text-sm font-semibold text-start font-montserrat">Years of<br/>Experience</p>
             </motion.div>
 
             <motion.div
-           variants={fadeIn("left",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }} 
+            variants={fadeIn("up", 0.2)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.7 }} 
              className="flex items-center space-x-2 shrink-0 mt-2">
               <p className={`font-semibold rounded-lg py-2 px-2  font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+10</p>
               <p className="text-sm font-semibold text-start font-montserrat">Accomplished<br/>Project</p>
             </motion.div>
 
             <motion.div
-            variants={fadeIn("right",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }} 
+              variants={fadeIn("up", 0.2)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.7 }} 
              className="flex items-center space-x-2 shrink-0 mt-2">
               <p className={`font-semibold rounded-lg py-2 px-2 font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+50k</p>
               <p className="text-sm font-semibold text-start font-montserrat">Lines of Code<br/>Written</p>
             </motion.div>
             
             <motion.div
-          variants={fadeIn("right",0.2)}
-           initial="hidden"
-           whileInView={"show"}
-            viewport={{ once: true, amount: 0.7 }} 
+           variants={fadeIn("up", 0.2)}
+  initial="hidden"
+  whileInView="show"
+  viewport={{ once: true, amount: 0.7 }} 
              className="flex items-center space-x-2 shrink-0 mt-2">
               <p className={`font-semibold rounded-lg py-2 px-2 font-montserrat ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'}`}>+2k</p>
               <p className="text-sm font-semibold text-start font-montserrat">Cups of Coffee<br/>Consumed</p>

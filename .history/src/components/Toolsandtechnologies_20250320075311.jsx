@@ -34,14 +34,6 @@ import Expressjs from '../assets/Expressjs.png';
 import twilio from '../assets/twilio.png';
 import laravel from '../assets/laravel.png';
 
-import Vite from '../assets/Vite.png';
-import VueJs from '../assets/VueJs.png';
-import Typescript from '../assets/Typescript.png';
-
-
-
-
-
 
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'
@@ -85,7 +77,29 @@ function Toolsandtechnologies({ isDarkMode }) {
     <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>CSS</p>
   </div>
 
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
+  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 /* The
+  above
+  code
+  appears
+  to
+  be
+  a
+  comment
+  block
+  in
+  JavaScript
+  React.
+  It
+  mentions
+  the
+  word
+  "rounded"
+  and
+  includes
+  the
+  characters
+  " */
+  rounded-lg mb-4 min-w-[70px]`}>
     <img className='mx-auto rounded-lg' src={js} alt='JavaScript' />
     <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>JavaScript</p>
   </div>
@@ -246,25 +260,6 @@ function Toolsandtechnologies({ isDarkMode }) {
     <img className='mx-auto rounded-lg w-[48px]' src={twilio} alt='Visual Studio' />
     <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Twilio</p>
   </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={VueJs} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>VueJs</p>
-  </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={Vite} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Vite</p>
-  </div>
-
-
-  <div className={`flex flex-col items-center ${isDarkMode ? 'bg-gray-700' : 'bg-slate-200'} p-2 rounded-lg mb-4 min-w-[70px]`}>
-    <img className='mx-auto rounded-lg w-[48px]' src={Typescript} alt='Visual Studio' />
-    <p className={`text-sm text-center font-semibold font-montserrat ${isDarkMode ? 'text-white' : 'text-slate-600'}`}>Typescript</p>
-  </div>
-
 
 
 

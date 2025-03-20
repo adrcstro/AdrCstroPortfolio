@@ -18,7 +18,7 @@ function Experience({ isDarkMode }) {
             initial="hidden"
             whileInView={"show"}
              viewport={{ once: true, amount: 0.7 }} 
-            className={`text-4xl tracking-tight font-bold font-montserrat ${isDarkMode ? 'text-white' : 'text-primary-800'}`}
+            className={`text-4xl tracking-tight font-bold ${isDarkMode ? 'text-white' : 'text-primary-800'}`}
           >
             Experi<span className='text-[#570df8] text-3xl'>ence.</span>
           </motion.h2>
@@ -27,7 +27,7 @@ function Experience({ isDarkMode }) {
             initial="hidden"
             whileInView={"show"}
              viewport={{ once: true, amount: 0.7 }} 
-            className={`text-md font-bold mt-2 font-montserrat ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}
+            className={`text-md font-bold mt-2 ${isDarkMode ? 'text-slate-400' : 'text-slate-500'}`}
           >
             Professional Experience
           </motion.p>
